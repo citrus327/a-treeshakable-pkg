@@ -1,0 +1,19 @@
+{
+  "name": "a-treeshakable-pkg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/bundle.js",
+  "module": "dist/bundle.esm.js",
+  "exports": {
+    ".": "./dist/bundle.js"
+  },
+  "scripts": {
+    "build": "rollup -c rollup.config.mjs"
+  },
+  "keywords": [],
+  "author": "citrus327@outlook.com",
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^3.9.1"
+  }
+}
