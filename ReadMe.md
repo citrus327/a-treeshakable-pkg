@@ -18,4 +18,4 @@ a();
 export { a };
 ```
 
-Test your to see if only function `a` is bundled.
+Test your build to see if only function `a` is bundled.
